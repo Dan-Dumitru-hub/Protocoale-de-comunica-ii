@@ -1,0 +1,21 @@
+a.dig A -f queries.txt
+b.dig AAAA -f queries.txt
+c.dig MX protocoale.xyz
+d.dig +noall +authority sau dig @8.8.8.8 216.12.255.2 +noall +authority
+e.dig @216.12.255.2 google.com
+f.dig @8.8.8.8 -f queries.txt 
+g.dig  test.dorinel.protocoale.xyz  +noall +answer +trace -> in A 127.0.0.42 si 127.0.42.0
+
+
+
+dig NS dorinel.protocoale.xyz  -> potato.dfilip.xyz.
+dig NS protocoale.xyz ->ns4lrt.name.com
+						ns2dqr.name.com.
+						ns1bcp.name.com.
+						ns3hjx.name.com.
+
+
+pt  dorinel.protocoale.xyz ->127.42.0.0
+pt  protocoale.xyz->
+h.dig -x 127.0.0.53 +noall +answer
+i.ss
